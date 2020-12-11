@@ -1045,7 +1045,7 @@
     "variables": [],
     "settings": {
         "startSceneId": "d48f1be3-3de9-4982-bbf7-4fe4b2b006cf",
-        "startX": 3,
+        "startX": 2,
         "startY": 11,
         "showCollisions": true,
         "showConnections": true,
@@ -1065,8 +1065,6 @@
         "defaultUIPaletteId": "default-ui",
         "defaultFadeStyle": "white",
         "startDirection": "down",
-        "playerSpriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
-        "startMoveSpeed": "2",
-        "startAnimSpeed": "4"
+        "playerSpriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
     }
 }
