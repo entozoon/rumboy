@@ -4,4 +4,4 @@ A completely original Gameboy game. Like, a literal ROM. All design, artwork and
 
 ## [🎮 Play online](https://entozoon.github.io/rumboy)
 
-## [💾 Download ROM](/build/rom/game.gb)
+## [💾 Download ROM](/build/rom/game.gb?raw=true)
