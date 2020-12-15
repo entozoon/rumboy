@@ -197,9 +197,9 @@ AREA .  .ABS.
 		s__LIT	354C
 		s__GSINIT	354C
 		l__CODE_1	3905
-		l__CODE_6	390A
 		s__GSINITTAIL	3A63
 		s__GSFINAL	3A64
+		l__CODE_6	3CEC
 		s__CODE_1	4000
 		s__CODE_4	4000
 		s__CODE_5	4000
@@ -1026,7 +1026,7 @@ AREA _XSEG
 AREA _CODE_6
 	RADIX HEX
 	BASE 4000
-	SIZE 390A
+	SIZE 3CEC
 	ATTRIB REL CON
 	GLOBALS
 		_bank_6_data	4000
@@ -1465,80 +1465,80 @@ MODULES
 		NAME Runtime
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/Actor_a.o
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/Actor_b.o
-		NAME _var_folders_kh_bm862m1n6gj6rz48∞íC°
+		NAME _var_folders_kh_bm862m1n6gj6rz48¿ÅêË
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/Actor.o
-		NAME _var_folders_kh_bm862m1n6gj6rz48pöC°
+		NAME _var_folders_kh_bm862m1n6gj6rz48ÄâêË
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/asm.macros.o
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/BankData.o
-		NAME _var_folders_kh_bm862m1n6gj6rz48P°C°
+		NAME _var_folders_kh_bm862m1n6gj6rz48`êêË
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/BankManager.o
-		NAME _var_folders_kh_bm862m1n6gj6rz48•C°
+		NAME _var_folders_kh_bm862m1n6gj6rz48 îêË
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/Camera_a.o
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/Camera.o
-		NAME _var_folders_kh_bm862m1n6gj6rz48¿©C°
+		NAME _var_folders_kh_bm862m1n6gj6rz48–òêË
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/Collision.o
-		NAME _var_folders_kh_bm862m1n6gj6rz48∞≠C°
+		NAME _var_folders_kh_bm862m1n6gj6rz48¿úêË
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/Core_Main.o
-		NAME _var_folders_kh_bm862m1n6gj6rz48¬C°
+		NAME _var_folders_kh_bm862m1n6gj6rz48
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/DataManager.o
-		NAME _var_folders_kh_bm862m1n6gj6rz48PœC°
+		NAME _var_folders_kh_bm862m1n6gj6rz48`æêË
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/FadeManager_b.o
-		NAME _var_folders_kh_bm862m1n6gj6rz48ê÷C°
+		NAME _var_folders_kh_bm862m1n6gj6rz48a—˛Á
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/FadeManager.o
-		NAME _var_folders_kh_bm862m1n6gj6rz48‡⁄C°
+		NAME _var_folders_kh_bm862m1n6gj6rz48‡+Ë
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/gbt_player_bank1.o
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/gbt_player.o
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/Input.o
-		NAME _var_folders_kh_bm862m1n6gj6rz48ê`@°
+		NAME _var_folders_kh_bm862m1n6gj6rz48pI–Ë
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/Math.o
-		NAME _var_folders_kh_bm862m1n6gj6rz48E@°
+		NAME _var_folders_kh_bm862m1n6gj6rz48L–Ë
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/MusicManager.o
-		NAME _var_folders_kh_bm862m1n6gj6rz48 L@°
+		NAME _var_folders_kh_bm862m1n6gj6rz48`f¿˛Á
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/Palette.o
-		NAME _var_folders_kh_bm862m1n6gj6rz480P@°
+		NAME _var_folders_kh_bm862m1n6gj6rz48pj¿˛Á
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/Projectiles_b.o
-		NAME _var_folders_kh_bm862m1n6gj6rz480S@°
+		NAME _var_folders_kh_bm862m1n6gj6rz48pm¿˛Á
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/Projectiles.o
-		NAME _var_folders_kh_bm862m1n6gj6rz48¿V@°
+		NAME _var_folders_kh_bm862m1n6gj6rz48
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/ScriptRunner_b.o
-		NAME _var_folders_kh_bm862m1n6gj6rz48b@°
+		NAME _var_folders_kh_bm862m1n6gj6rz48P|¿˛Á
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/ScriptRunner.o
-		NAME _var_folders_kh_bm862m1n6gj6rz48`Ü@°
+		NAME _var_folders_kh_bm862m1n6gj6rz48@†¿˛Á
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/Scroll_a.o
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/Scroll_b.o
-		NAME _var_folders_kh_bm862m1n6gj6rz48@ç@°
+		NAME _var_folders_kh_bm862m1n6gj6rz48 ß¿˛Á
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/Scroll.o
-		NAME _var_folders_kh_bm862m1n6gj6rz48
+		NAME _var_folders_kh_bm862m1n6gj6rz48‡™¿˛Á
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/Sprite_b.o
-		NAME _var_folders_kh_bm862m1n6gj6rz48†ï@°
+		NAME _var_folders_kh_bm862m1n6gj6rz48ÄØ¿˛Á
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/Sprite.o
-		NAME _var_folders_kh_bm862m1n6gj6rz480ô@°
+		NAME _var_folders_kh_bm862m1n6gj6rz48≥¿˛Á
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/Stack.o
-		NAME _var_folders_kh_bm862m1n6gj6rz48 õ@°
+		NAME _var_folders_kh_bm862m1n6gj6rz48
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/Trigger_b.o
-		NAME _var_folders_kh_bm862m1n6gj6rz48Pù@°
+		NAME _var_folders_kh_bm862m1n6gj6rz480∑¿˛Á
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/Trigger.o
-		NAME _var_folders_kh_bm862m1n6gj6rz48ü@°
+		NAME _var_folders_kh_bm862m1n6gj6rz48–π¿˛Á
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/UI_b.o
-		NAME _var_folders_kh_bm862m1n6gj6rz48´@°
+		NAME _var_folders_kh_bm862m1n6gj6rz48–≈¿˛Á
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/UI.o
-		NAME _var_folders_kh_bm862m1n6gj6rz48`∑@°
+		NAME _var_folders_kh_bm862m1n6gj6rz48@—¿˛Á
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/bank_6.o
 		NAME bank_6
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/data_ptrs.o
-		NAME _var_folders_kh_bm862m1n6gj6rz48Ω@°
+		NAME _var_folders_kh_bm862m1n6gj6rz48¿◊¿˛Á
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/main.o
-		NAME _var_folders_kh_bm862m1n6gj6rz48p√@°
+		NAME _var_folders_kh_bm862m1n6gj6rz48@›¿˛Á
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/Adventure.o
-		NAME _var_folders_kh_bm862m1n6gj6rz48–≈@°
+		NAME _var_folders_kh_bm862m1n6gj6rz48†ﬂ¿˛Á
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/Platform.o
-		NAME _var_folders_kh_bm862m1n6gj6rz48ê»@°
+		NAME _var_folders_kh_bm862m1n6gj6rz48`‚¿˛Á
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/PointNClick.o
-		NAME _var_folders_kh_bm862m1n6gj6rz480Ã@°
+		NAME _var_folders_kh_bm862m1n6gj6rz48
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/Shmup.o
-		NAME _var_folders_kh_bm862m1n6gj6rz480œ@°
+		NAME _var_folders_kh_bm862m1n6gj6rz48
 	FILE /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbsbuild/obj/TopDown.o
-		NAME _var_folders_kh_bm862m1n6gj6rz48ê“@°
+		NAME _var_folders_kh_bm862m1n6gj6rz48`Ï¿˛Á
 LIBRARIES
 	LIBRARY /var/folders/kh/bm862m1n6gj6rz4852d80cz40000gn/T/_gbstools/gbdk/lib/small/asxxxx/gb/gb.lib
 		MODULE sfr.o
