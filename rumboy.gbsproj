@@ -1519,7 +1519,17 @@
                 3,
                 3
             ],
-            "script": [],
+            "script": [
+                {
+                    "id": "cc405939-555a-4a68-a56a-7f22016d1728",
+                    "command": "EVENT_MUSIC_STOP",
+                    "args": {}
+                },
+                {
+                    "id": "ea74d933-5649-4045-a589-d3319a9417ea",
+                    "command": "EVENT_END"
+                }
+            ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
@@ -3659,6 +3669,14 @@
             ],
             "script": [
                 {
+                    "id": "3ca56329-7d22-4bb2-8ea1-475a683d483a",
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "9b656566-d488-4a77-92d8-832bd9329ab2",
+                        "loop": true
+                    }
+                },
+                {
                     "id": "573c54a4-c5c0-4cbb-b17c-4347e4718fe7",
                     "command": "EVENT_END"
                 }
@@ -5283,6 +5301,11 @@
             ],
             "script": [
                 {
+                    "id": "75ec2016-1945-49ed-96e0-7a76ea2f7286",
+                    "command": "EVENT_MUSIC_STOP",
+                    "args": {}
+                },
+                {
                     "id": "92d23dcb-e622-4175-8516-0423163552ac",
                     "command": "EVENT_END"
                 }
@@ -5845,6 +5868,14 @@
             "settings": {},
             "inode": "19010322",
             "_v": 1608079008472
+        },
+        {
+            "id": "9b656566-d488-4a77-92d8-832bd9329ab2",
+            "name": "town",
+            "filename": "town.mod",
+            "settings": {},
+            "inode": "19725948",
+            "_v": 1608086702900
         }
     ],
     "variables": [],

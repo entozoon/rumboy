@@ -3659,6 +3659,14 @@
             ],
             "script": [
                 {
+                    "id": "3ca56329-7d22-4bb2-8ea1-475a683d483a",
+                    "command": "EVENT_MUSIC_PLAY",
+                    "args": {
+                        "musicId": "9b656566-d488-4a77-92d8-832bd9329ab2",
+                        "loop": true
+                    }
+                },
+                {
                     "id": "573c54a4-c5c0-4cbb-b17c-4347e4718fe7",
                     "command": "EVENT_END"
                 }
@@ -5845,18 +5853,26 @@
             "settings": {},
             "inode": "19010322",
             "_v": 1608079008472
+        },
+        {
+            "id": "9b656566-d488-4a77-92d8-832bd9329ab2",
+            "name": "town",
+            "filename": "town.mod",
+            "settings": {},
+            "inode": "19725948",
+            "_v": 1608086702900
         }
     ],
     "variables": [],
     "settings": {
-        "startSceneId": "f3d78e8a-9933-486a-8ee4-3d48811c0bee",
-        "startX": 5,
-        "startY": 13,
+        "startSceneId": "d48f1be3-3de9-4982-bbf7-4fe4b2b006cf",
+        "startX": 9,
+        "startY": 31,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 4015,
-        "worldScrollY": 1674,
-        "zoom": 400,
+        "worldScrollX": 1002,
+        "worldScrollY": 497,
+        "zoom": 188.58645737171173,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": [
             "default-bg-2",
