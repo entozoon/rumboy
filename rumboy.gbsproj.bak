@@ -5428,7 +5428,7 @@
             "imageHeight": 176,
             "filename": "glassblowingstudio.png",
             "inode": "19691901",
-            "_v": 1608085704214
+            "_v": 1608086098915
         },
         {
             "id": "d540a161-09cf-4c47-907f-e3b923cea67f",
@@ -5830,7 +5830,7 @@
             "name": "blower",
             "colors": [
                 "E8F8E0",
-                "487828",
+                "286078",
                 "E82820",
                 "181840"
             ]
@@ -5854,8 +5854,8 @@
         "startY": 13,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 4130,
-        "worldScrollY": 1507,
+        "worldScrollX": 4015,
+        "worldScrollY": 1674,
         "zoom": 400,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": [
