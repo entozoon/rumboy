@@ -693,8 +693,8 @@
                     "command": "EVENT_SWITCH_SCENE",
                     "args": {
                         "sceneId": "a368df72-3f08-42a0-89d5-b301403b8088",
-                        "x": 10,
-                        "y": 16,
+                        "x": 8,
+                        "y": 2,
                         "direction": "up",
                         "fadeSpeed": "1",
                         "__collapse": true
@@ -1003,7 +1003,7 @@
                 0,
                 0,
                 0,
-                15,
+                8,
                 1,
                 0,
                 0,
@@ -5272,6 +5272,17 @@
                                         }
                                     },
                                     {
+                                        "id": "8bab6705-f3e6-4839-9c23-c121b2a0b97f",
+                                        "command": "EVENT_ACTOR_MOVE_RELATIVE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": 0,
+                                            "y": 1,
+                                            "moveType": "horizontal",
+                                            "useCollisions": false
+                                        }
+                                    },
+                                    {
                                         "id": "80aa61e5-a748-4021-bb69-af94ef61d587",
                                         "command": "EVENT_END"
                                     }
@@ -7121,7 +7132,32 @@
                     "direction": "down",
                     "moveSpeed": "1",
                     "animSpeed": "1",
-                    "script": [],
+                    "script": [
+                        {
+                            "id": "fbe068aa-5e27-4893-a644-f83e1b1b11ef",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Hey up Rumlad!"
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "c3a82614-617b-456b-8022-8f84738b0ade",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "I'm 38!!\nAnyway, I need a\nglass"
+                                ],
+                                "avatarId": "211e5c8b-1f0d-468a-96bc-6b407ab2decf"
+                            }
+                        },
+                        {
+                            "id": "7e87d558-57e8-4c8d-9b8f-e5955c8e5bcb",
+                            "command": "EVENT_END"
+                        }
+                    ],
                     "startScript": [],
                     "updateScript": [],
                     "hit1Script": [],
@@ -7135,8 +7171,69 @@
                 {
                     "name": "",
                     "frame": 0,
-                    "animate": false,
+                    "animate": true,
                     "spriteSheetId": "1e3a5e6e-8cc6-4ce5-895b-67466d3589f9",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [
+                        {
+                            "id": "0abcaa8f-8257-4d9b-9f91-3ce715cd3c52",
+                            "command": "EVENT_TEXT",
+                            "args": {
+                                "text": [
+                                    "Just trying to\nwarm up!",
+                                    "Thanks again for\nfinding my key."
+                                ],
+                                "avatarId": ""
+                            }
+                        },
+                        {
+                            "id": "44e10969-bf9c-4bc6-80c6-9d6c91ec0726",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "13c6f085-b69d-4daf-8100-e6adfa025282",
+                    "x": 7,
+                    "y": 9,
+                    "paletteId": "aef18469-c34b-48b0-830e-bb6b284beb61"
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "d9127172-7252-4fae-9949-b5d4632d0b58",
+                    "spriteType": "static",
+                    "direction": "down",
+                    "moveSpeed": "1",
+                    "animSpeed": "3",
+                    "script": [
+                        {
+                            "id": "bd732fa9-180b-4a81-8785-faa35a704062",
+                            "command": "EVENT_END"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "63d384b7-6295-4b13-894c-891477736cc1",
+                    "x": 22,
+                    "y": 14,
+                    "paletteId": "fa69bc4f-d559-4e53-8450-b9211c5d5c4c"
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "631b1ada-49d4-40ea-928e-ea783e9a80cb",
                     "spriteType": "static",
                     "direction": "down",
                     "moveSpeed": "1",
@@ -7147,10 +7244,10 @@
                     "hit1Script": [],
                     "hit2Script": [],
                     "hit3Script": [],
-                    "id": "13c6f085-b69d-4daf-8100-e6adfa025282",
-                    "x": 8,
-                    "y": 14,
-                    "paletteId": "aef18469-c34b-48b0-830e-bb6b284beb61"
+                    "id": "392b9ca6-5123-4ba3-b4dd-793fe6968a1b",
+                    "x": 26,
+                    "y": 13,
+                    "paletteId": "fa69bc4f-d559-4e53-8450-b9211c5d5c4c"
                 }
             ],
             "triggers": [
@@ -8316,7 +8413,7 @@
                 0,
                 0,
                 2,
-                2,
+                4,
                 0,
                 4,
                 0,
@@ -8355,7 +8452,7 @@
                 0,
                 0,
                 0,
-                4,
+                2,
                 1,
                 2,
                 4,
@@ -8375,7 +8472,7 @@
                 0,
                 0,
                 0,
-                4,
+                2,
                 1,
                 2,
                 5,
@@ -8383,6 +8480,7 @@
                 3,
                 5,
                 2,
+                5,
                 0,
                 0,
                 0,
@@ -8394,8 +8492,7 @@
                 0,
                 0,
                 0,
-                0,
-                4,
+                2,
                 1,
                 2,
                 4,
@@ -8403,6 +8500,7 @@
                 3,
                 0,
                 2,
+                5,
                 0,
                 0,
                 0,
@@ -8414,28 +8512,27 @@
                 0,
                 0,
                 0,
-                0,
-                4,
+                2,
                 3,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
                 2,
-                2,
-                2,
-                2,
-                2,
-                2,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                4,
                 1,
                 2,
                 4,
@@ -8443,6 +8540,7 @@
                 3,
                 0,
                 2,
+                5,
                 0,
                 0,
                 0,
@@ -8454,8 +8552,7 @@
                 0,
                 0,
                 0,
-                0,
-                4,
+                2,
                 0,
                 0,
                 4,
@@ -8463,26 +8560,7 @@
                 3,
                 0,
                 2,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                2,
-                2,
-                2,
-                2,
-                2,
-                2,
-                2,
-                2,
-                0,
-                2,
+                5,
                 0,
                 0,
                 0,
@@ -8498,12 +8576,11 @@
                 0,
                 0,
                 0,
-                4,
                 0,
                 0,
                 0,
                 2,
-                0,
+                5,
                 0,
                 0,
                 0,
@@ -8555,6 +8632,15 @@
                 0,
                 0,
                 0,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
                 0,
                 0,
                 0,
@@ -8566,6 +8652,15 @@
                 0,
                 0,
                 0,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
                 0,
                 0,
                 0,
@@ -8577,13 +8672,15 @@
                 0,
                 0,
                 0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0,
-                0
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2
             ],
             "script": [
                 {
@@ -8676,7 +8773,7 @@
             "imageHeight": 144,
             "filename": "intro-2.png",
             "inode": "19904897",
-            "_v": 1608514624470
+            "_v": 1608600563901
         },
         {
             "id": "940b8cda-c51a-4c21-82f4-b3cbf5c717ca",
@@ -9220,6 +9317,16 @@
                 "A0F888",
                 "281028"
             ]
+        },
+        {
+            "id": "fa69bc4f-d559-4e53-8450-b9211c5d5c4c",
+            "name": "studio-crates",
+            "colors": [
+                "F8E0A0",
+                "E0B830",
+                "98F850",
+                "181800"
+            ]
         }
     ],
     "customEvents": [
@@ -9335,14 +9442,14 @@
         }
     ],
     "settings": {
-        "startSceneId": "d48f1be3-3de9-4982-bbf7-4fe4b2b006cf",
-        "startX": 10,
-        "startY": 27,
+        "startSceneId": "f3d78e8a-9933-486a-8ee4-3d48811c0bee",
+        "startX": 15,
+        "startY": 16,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 893,
-        "worldScrollY": 758,
-        "zoom": 247.67817766219378,
+        "worldScrollX": 1657,
+        "worldScrollY": 840,
+        "zoom": 337.17414704710245,
         "customColorsEnabled": true,
         "defaultBackgroundPaletteIds": [
             "default-bg-2",
