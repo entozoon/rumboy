@@ -5845,17 +5845,7 @@
                 2,
                 2,
                 3,
-                3,
-                3,
                 2,
-                2,
-                2,
-                2,
-                2,
-                2,
-                2,
-                3,
-                3,
                 3,
                 2,
                 2,
@@ -5865,7 +5855,17 @@
                 2,
                 2,
                 3,
+                2,
                 3,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                2,
+                3,
+                2,
                 3,
                 2,
                 2,
@@ -6739,7 +6739,7 @@
                     "script": [],
                     "startScript": [
                         {
-                            "id": "edcac7e8-6882-42c3-9824-28387729bd2a",
+                            "id": "117cbe4b-968c-4e45-a29f-98cafd6964be",
                             "command": "EVENT_ACTOR_HIDE",
                             "args": {
                                 "actorId": "$self$"
@@ -8486,7 +8486,7 @@
             "imageHeight": 144,
             "filename": "glassblowingstudio.png",
             "inode": "19691901",
-            "_v": 1609194614866
+            "_v": 1609195278352
         },
         {
             "id": "d540a161-09cf-4c47-907f-e3b923cea67f",
@@ -9239,7 +9239,7 @@
         "startY": 11,
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 5832,
+        "worldScrollX": 5543,
         "worldScrollY": 2319,
         "zoom": 517.4093427956104,
         "customColorsEnabled": true,
