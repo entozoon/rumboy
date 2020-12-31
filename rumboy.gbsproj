@@ -1831,7 +1831,7 @@
                                                                     "type": "crash",
                                                                     "pitch": 4,
                                                                     "frequency": 200,
-                                                                    "duration": 0.5,
+                                                                    "duration": 1,
                                                                     "wait": false
                                                                 }
                                                             },
