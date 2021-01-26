@@ -7,13 +7,23 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>rumboy</title>
     <meta name="author" content="m" />
-    <style type="text/css"> body { background-color:#undefined; }</style>
-    
+    <style type="text/css">
+      body {
+        background-color: #undefined;
+      }
+    </style>
+    <style>
+      body {
+        background: #9b9b9b;
+      }
+    </style>
   </head>
   <body>
     <div id="gameboy_shell">
       <div id="game">
-        <canvas id="mainCanvas" width="160" height="144">No Canvas Support</canvas>
+        <canvas id="mainCanvas" width="160" height="144"
+          >No Canvas Support</canvas
+        >
       </div>
       <div id="controller">
         <div id="controller_dpad">
@@ -26,10 +36,10 @@
         <div id="controller_start" class="capsuleBtn">Start</div>
         <div id="controller_b" class="roundBtn">B</div>
         <div id="controller_a" class="roundBtn">A</div>
-      </div>      
+      </div>
     </div>
     <script>
-      const customControls = {}
+      const customControls = {};
     </script>
     <script src="js/other/mobile.js"></script>
     <script src="js/other/base64.js"></script>
@@ -37,8 +47,9 @@
     <script src="js/other/resampler.js"></script>
     <script src="js/other/XAudioServer.js"></script>
     <script src="js/other/controls.js"></script>
-    <script src="js/other/resize.js"></script>    
+    <script src="js/other/resize.js"></script>
     <script src="js/GameBoyCore.js"></script>
     <script src="js/GameBoyIO.js"></script>
+    <script src="js/other/itchDetection.js"></script>
   </body>
 </html>
